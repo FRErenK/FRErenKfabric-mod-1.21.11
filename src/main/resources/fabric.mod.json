@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "frerenk-api",
+	"version": "1.0.0",
+	"name": "Erenin Modu",
+	"description": "Benim ilk modum!",
+	"authors": ["FRERenK"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.frerenk.api.MyMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11"
+	}
+}
