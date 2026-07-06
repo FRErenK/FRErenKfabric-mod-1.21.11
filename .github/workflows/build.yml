@@ -18,3 +18,9 @@ jobs:
           gradle wrapper --gradle-version 8.10
           chmod +x gradlew
           ./gradlew build
+
+- name: Upload Artifacts
+  uses: actions/upload-artifact@v4
+  with:
+    name: ModDosyasi
+    path: build/libs/*.jar
